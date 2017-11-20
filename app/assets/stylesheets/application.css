@@ -1,5 +1,7 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+ <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css“>
+   <link rel=“stylesheet” href=“https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css”>
+
+/* * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -12,4 +14,12 @@
  *
  *= require_tree .
  *= require_self
- */
+
+*/
+
+.message-bienvenue {
+display: flex;
+background: gray;
+text-align: center;
+color: red;
+}
